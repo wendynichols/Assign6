@@ -23,30 +23,30 @@ console.log(i)
 
   console.log(avg);
 
-  
-
 
 
 //get an array of items that cost between $14.00 and $18.00 USD
 
-    //items.price(function (items) {
-    //return
-    //});
+
+  var cost = items.filter(function(c) {
+    return c.price >14.00 && c.price <18.00;
+});
+
+  console.log(cost)
 
 
 
-  items.reduce(function(currentValue) {
-    return currentValue;
-  });
-
-  console.log(items);
 
 //find the item with a "GBP" currency code and print its name and price
 
 
 // find which items are made of wood
 
-  //var mow = ['']
+  var mow = items.filter(function(w) {
+    return w.name 'wood';
+  });
+
+  console.log(mow);
 
 
 //find which items are made of eight or more materials
