@@ -3,7 +3,7 @@ console.log(i)
 });
 
 
-//calculate the average price of all items
+//Q1 calculate the average price of all items
 
   var price = [];
 
@@ -25,7 +25,7 @@ console.log(i)
 
 
 
-//get an array of items that cost between $14.00 and $18.00 USD
+//Q2 get an array of items that cost between $14.00 and $18.00 USD
 
 
   var cost = items.filter(function(c) {
@@ -36,14 +36,14 @@ console.log(i)
 
 
 
-//find the item with a "GBP" currency code and print its name and price
+//Q3 find the item with a "GBP" currency code and print its name and price
 
 
-// find which items are made of wood
+//Q4 find which items are made of wood
 
-  var mow = items.forEach(function(a) {
-     a.materials.forEach(function(b) {
-       if (b === 'wood') {
+      items.forEach(function(a) {
+        a.materials.forEach(function(b) {
+          if (b === 'wood') {
          console.log(a.title);
        };
      });
@@ -51,7 +51,7 @@ console.log(i)
 
 
 
-//find which items are made of eight or more materials
+//Q5 find which items are made of eight or more materials
 
     var ml = items.filter(function(m) {
     return m.materials <=8;
@@ -61,10 +61,10 @@ console.log(i)
   console.log(ml)
 
 
-//calculate how many items were made by their sellers
+//Q6 calculate how many items were made by their sellers
 
    items.forEach(function(a) {
-    a.who_made === 'i_did') {
+    a.who_made  (a === 'i_did') {
         console.log(a.title);
       };
   };
