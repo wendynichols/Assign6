@@ -61,6 +61,10 @@ console.log(i)
   console.log(ml)
 
 
-
-
 //calculate how many items were made by their sellers
+
+   items.forEach(function(a) {
+    a.who_made === 'i_did') {
+        console.log(a.title);
+      };
+  };
