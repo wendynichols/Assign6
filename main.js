@@ -53,10 +53,12 @@ console.log(i)
 
 //find which items are made of eight or more materials
 
+    var ml = items.filter(function(m) {
+    return m.materials <=8;
 
+  });
 
-
-
+  console.log(ml)
 
 
 
