@@ -36,20 +36,29 @@ console.log(i)
 
 
 
-
 //find the item with a "GBP" currency code and print its name and price
 
 
 // find which items are made of wood
 
-  var mow = items.filter(function(w) {
-    return w.name 'wood';
+  var mow = items.forEach(function(a) {
+     a.materials.forEach(function(b) {
+       if (b === 'wood') {
+         console.log(a.title);
+       };
+     });
   });
 
-  console.log(mow);
 
 
 //find which items are made of eight or more materials
+
+
+
+
+
+
+
 
 
 //calculate how many items were made by their sellers
