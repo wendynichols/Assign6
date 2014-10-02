@@ -40,6 +40,19 @@ console.log(i)
 
 
 
+  var cur = items.filter(function(c) {
+      if ('GBP' === c.currency_code) {
+          return true;
+        } else {
+          return false;
+        }
+      });
+
+    console.log(cur)
+
+
+
+
 //Q4 find which items are made of wood
 
       items.forEach(function(a) {
