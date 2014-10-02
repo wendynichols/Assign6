@@ -39,6 +39,7 @@ console.log(i)
 //Q3 find the item with a "GBP" currency code and print its name and price
 
 
+
 //Q4 find which items are made of wood
 
       items.forEach(function(a) {
@@ -63,8 +64,12 @@ console.log(i)
 
 //Q6 calculate how many items were made by their sellers
 
-   items.forEach(function(a) {
-    a.who_made  (a === 'i_did') {
-        console.log(a.title);
-      };
-  };
+var whomade = items.filter(function(a) {
+    if ('i_did' === a.who_made) {
+        return true;
+      } else {
+        return false;
+      }
+    });
+
+  console.log(whomade)
