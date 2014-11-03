@@ -18,7 +18,7 @@ console.log(i)
     console.log(sum);
 
   var avg = sum / price.length;
-    console.log(avg.tofixed(2));
+    //console.log(avg.tofixed(2));
 
 
 
